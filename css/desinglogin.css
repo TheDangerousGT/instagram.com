@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .menuimg {
+    background: #fafafa;
+    padding-top: 42px;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-left: 56px;
+    height: 51px;
+    width: 175px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+  }
+  
+  .singup {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 40px 35px;
+  }
+  
+  .singup form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p {
+    text-align: center;
+    margin: 10px auto 20px;
+    color: #999;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  button {
+    color: white;
+    border: none;
+    background: #3897f0;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px; 
+    margin-bottom: 10px;
+  }
+  
+  .div {
+    border-bottom: 1px solid #999;
+    margin-top: 15px;
+    margin-bottom: -20px;
+  }
+  
+  .or {
+    background: white;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  
+  form input {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  a{
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .reglas {
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  .reglas span {
+    font-weight: bold;
+  }
+  
+  .login {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    margin-top: 10px;
+    padding: 10px 0;
+    margin-bottom: 25px;
+  }
+  
+  .login p {
+    color: #222;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 15px;
+  }
+  
+  .login a {
+    text-decoration: none;
+    color: #3897f0;
+  }
+  
+  .app {
+    font-size: 14px;
+    color: #222;
+    font-weight: normal;
+  }
+  
+  .store {
+    display: flex;
+    margin: -5px auto 0;
+  }
+  
+  .store img{
+    height: 40px;
+    margin-right: 5px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 40px;
+    margin-top: 150px;
+  }
+  
+  footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  footer ul li {
+    color: #003569;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  footer p {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  
+  .main .img {
+    margin-top: 40px;
+  }
+  
+  .muestra {
+    position: relative;
+    margin: 99px 0 0 151px;
+    margin-top: -522px;
+  }
+  
+  .variasimg {
+    position: absolute;
+  }
+  .slide{
+    height: 427px;
+    width:240px;
+  }
+  .textbox{
+      border: 1px solid #efefef;
+      border-radius: 3px;
+      height: 36px;
+      background: #fafafa;
+      position: relative;
+      margin-top: 20px;
+  }
+  .textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+  }
+  .textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+    background-color: #FAFAFA;
+    border-color: slategrey;
+    font-size: 13px;
+    text-align: justify;
+  }
+  .textbox1{
+      border: 1px solid #efefef;
+      border-radius: 3px;
+      height: 36px;
+      background: #fafafa;
+      position: relative;
+      margin-top: 15px;
+  }
+  .textbox1 i{
+    width: 26px;
+    float: left;
+    text-align: center;
+  }
+  .textbox1 input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 12.2px;
+    width: 80%;
+    float: left;
+    margin: 3px 10px;
+    background-color: #FAFAFA;
+    border-color: slategrey;
+    text-align: justify;
+  }
+  .logo1 {
+    background: cover no-repeat;
+    width:175px;
+    height:auto;
+    margin:0 auto;
+  }
+  .button-box {
+    display: block;
+    position: relative;
+    margin: 8px 40px;
+    background-color: #3897f0;
+    border-radius: 5px;
+  }
+  span .btn {
+    margin-top: 30px;
+    cursor: pointer;
+    width: 100%;
+    padding:0 8px; 
+    background-color: #3897f0;
+    border:1px solid #3897f0;
+    color:#fff;
+    border-radius:3px;
+    font-weight:600;
+    font-size: 14px;
+    height: 28px;
+    line-height: 26px;
+    outline: none;
+    white-space: nowrap;
+    margin-left: -30px;
+  }
